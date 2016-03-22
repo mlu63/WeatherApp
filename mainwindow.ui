@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>312</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="tempLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>KacstArt</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>WEATHER CANADA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="getWeather">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Get Weather</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="kelvin_button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>114</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kelvin</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="celsius_button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>114</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Celsius</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="fahrenheit_button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>114</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fahrenheit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pressureLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>120</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="humidityLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>150</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="windSpeedLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="windDirectionLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>210</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imageLabel">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../Desktop/Resources/resources.qrc">:/new/prefix1/Weather.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="creditsLabel">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>290</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Droid Serif</family>
+      <pointsize>8</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>All credits go to openweathermap.org</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="dropdown_menu">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>London</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hamilton</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Toronto</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vancouver</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saskatoon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Halifax</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="minTempLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>tempLabel</zorder>
+   <zorder>label</zorder>
+   <zorder>getWeather</zorder>
+   <zorder>kelvin_button</zorder>
+   <zorder>celsius_button</zorder>
+   <zorder>fahrenheit_button</zorder>
+   <zorder>pressureLabel</zorder>
+   <zorder>humidityLabel</zorder>
+   <zorder>windSpeedLabel</zorder>
+   <zorder>windDirectionLabel</zorder>
+   <zorder>creditsLabel</zorder>
+   <zorder>imageLabel</zorder>
+   <zorder>dropdown_menu</zorder>
+   <zorder>minTempLabel</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../Desktop/Resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
